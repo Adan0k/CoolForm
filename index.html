@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div> <label for=""> Name: </label> <input type="text" class="text"></div>
+        <div> <label for=""> Cell Phone: </label> <input type="text" class="text" id="cell" placeholder="+351" pattern="^(\+351)?\s?9[2|6|1][0-9]{7}"></div>
+        <div><label for="">Gender: </label>
+            <input type="radio" name="" id=""><label for="" class="radio">Female</label>
+            <input type="radio" name="" id=""><label for="" class="radio">Male</label>
+        </div>
+        <div><label for="">Email </label> <input type="email" name="" class="text" placeholder="youremail@gmail.com"></div>
+        <div><label for="">Password</label> <input type="password" name="" class="text"></div>
+        <div><label for="">Hobbies: </label>
+        <input type="checkbox" name="Music"><label for="Music" class="checkbox">Music</label>
+        <input type="checkbox" name="Cinema"><label for="Cinema" class="checkbox">Cinema</label>
+        <input type="checkbox" name="Dance"><label for="Dance" class="checkbox">Dance</label>
+        <input type="checkbox" name="Photography" disabled><label for="Photography" class="checkbox">Photography</label>
+    </div>
+    <div><label for="">Age: </label> <span id="userAge">18</span><input type="range" name="" id="range" max="100" min="18" value="18"></div>
+    <div id="submit"><button>submit</button></div>
+    </form>
+</body>
+<script src="script.js"></script>
+</html>
